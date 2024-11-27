@@ -1,3 +1,13 @@
+/*
+  Loader: propless component renders a loading animation
+
+  props:
+  n/a
+
+  Packages Used:
+  styled-components, react
+*/
+
 import React from 'react';
 import styled,{keyframes} from 'styled-components'
 

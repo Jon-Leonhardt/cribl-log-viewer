@@ -1,3 +1,12 @@
+/*
+  Alert: takes a message and alert type as props and renders an alert component with a backgorund matching the alert type and message
+
+  props:
+  msg, type
+
+  Packages Used:
+  styled-components, react
+*/
 import React from 'react';
 import styled from 'styled-components';
 

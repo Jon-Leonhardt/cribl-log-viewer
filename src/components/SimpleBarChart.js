@@ -1,3 +1,13 @@
+/*
+    SimpleBarChart: takes an array of objects (val, count), width and height as props and renders a simple svg bar chart with those values
+
+    props:
+    width, height, data
+
+    Packages Used:
+    styled-components, react, d3
+*/
+
 import React, {useEffect,useRef } from 'react';
 import * as d3 from 'd3';
 import Styled from 'styled-components';
@@ -6,7 +16,7 @@ const SimpleBarChartContainer = Styled.div`
     display:inline-block;
 `;
 
-function SimpleBarChart({ width, height, data, yAxisTitle, callBack}) {
+function SimpleBarChart({ width, height, data}) {
     const margin = {top: 20, right: 20, bottom: 50, left: 30};
     const ref = useRef(null);
     useEffect(() => {

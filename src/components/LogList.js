@@ -1,14 +1,12 @@
 /*
-LogList: takes an array of objects (logs) and width as props and then returns a component that is virtualized list of 
-all logs.  Each log in the list can be expanded to display the entire log messgae in formatted JSON
+  LogList: takes an array of objects (logs) and width as props and then returns a component that is virtualized list of 
+  all logs.  Each log in the list can be expanded to display the entire log messgae in formatted JSON
 
-props:
-width, items
+  props:
+  width, items
 
-Packages Used:
-styled-components, react-virtualized, react-json-view
-
-
+  Packages Used:
+  styled-components, react-virtualized, react-json-view, react
 */
 import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
